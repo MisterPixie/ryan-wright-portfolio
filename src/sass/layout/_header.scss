@@ -1,0 +1,32 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+@import '../helpers/functions';
+
+.navbar-container {
+    .navbar {
+        padding: 10px 0px 10px 0px;
+        background-color: transparent;
+
+        .navbar-brand {
+
+            .navbar-item {
+                color: white;
+                text-transform: uppercase;
+                font-family: $roboFont;
+                font-weight: 100;
+                font-size: 30px;
+                cursor: default;
+                @include transition(1s);
+
+                &:hover {
+                    letter-spacing: 10px;
+                }
+            }
+        }
+
+        .navbar-item {
+            color: white;
+        }
+    }
+
+}

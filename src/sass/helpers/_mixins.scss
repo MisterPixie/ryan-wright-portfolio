@@ -1,0 +1,35 @@
+// Gradient backgrounds
+@mixin bg-gradient($parent, $gradient) {
+    #{$parent} {
+      background: $gradient;
+    }
+}
+
+// Gradient text
+@mixin text-gradient($parent, $gradient) {
+    #{$parent} {
+      background-image: $gradient;
+      color:transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+}
+
+// Gradient text
+@mixin text-gradient($parent, $gradient) {
+    #{$parent} {
+      background-image: $gradient;
+      color:transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+}
+
+//Animation Transition
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
