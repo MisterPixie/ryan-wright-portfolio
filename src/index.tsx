@@ -3,8 +3,12 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import App from "./pages/App";
 
-import "bulma/css/bulma.css"
-import "./sass/pages/_home.scss"
+//Style imports
+import "bulma/css/bulma.css";
+import "./sass/pages/_home.scss";
+import "./sass/layout/_grid.scss";
+
+//Comps imports
 import Projects from './pages/projects/Projects';
 import Navbar from './components/Navbar';
 
