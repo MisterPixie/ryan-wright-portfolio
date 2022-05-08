@@ -1,42 +1,41 @@
-@import '../helpers/mixins';
-@import '../helpers/variables';
-@import '../helpers/functions';
+@import "../helpers/mixins";
+@import "../helpers/variables";
+@import "../helpers/functions";
 
 .navbar-container {
-    .navbar {
-        padding: 10px 0px 10px 0px;
-        background-color: transparent;
+  .navbar {
+    padding: 10px 0px 10px 0px;
+    background-color: transparent;
 
-        .navbar-brand {
+    .navbar-brand {
+      .navbar-item {
+        color: white;
+        text-transform: uppercase;
+        font-family: $roboFont;
+        font-weight: 100;
+        font-size: 30px;
+        cursor: default;
+        @include transition(1s);
 
-            .navbar-item {
-                color: white;
-                text-transform: uppercase;
-                font-family: $roboFont;
-                font-weight: 100;
-                font-size: 30px;
-                cursor: default;
-                @include transition(1s);
-
-                &:hover {
-                    letter-spacing: 10px;
-                }
-            }
+        &:hover {
+          letter-spacing: 10px;
         }
-
-        .navbar-end {
-
-            .navbar-item {
-                color: white;
-                padding: 0px 25px 0px 25px;
-                font-family: $roboFont;
-                border-radius: 10px;
-                margin: 0px 5px 0px 5px;
-                &:hover {
-                    background-color: transparent;
-                }
-            }
-        }
+      }
     }
 
+    .navbar-end {
+      .navbar-item {
+        color: white;
+        padding: 0px 25px 0px 25px;
+        font-family: $roboFont;
+        border-radius: 10px;
+        margin: 0px 5px 0px 5px;
+        font-weight: 300;
+        font-size: 18px;
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
 }
