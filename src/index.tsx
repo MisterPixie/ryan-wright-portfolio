@@ -11,6 +11,7 @@ import "./sass/layout/_grid.scss";
 //Comps imports
 import Projects from './pages/projects/Projects';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const container = document.getElementById('root');
 const root = createRoot(container!);
