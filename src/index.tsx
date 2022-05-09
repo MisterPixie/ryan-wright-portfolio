@@ -23,5 +23,6 @@ root.render(
             <Route path="/" element={<App/>}/>
             <Route path="/projects" element={<Projects/>}/>
         </Routes>
+        <Footer/>
     </Router>
 );
