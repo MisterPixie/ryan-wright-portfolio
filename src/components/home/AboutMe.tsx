@@ -2,16 +2,11 @@ export const AboutMe = () => {
     return (
         <div className="aboutMe">
             <div className="container">
-                <div className="columns v-centered centered">
-                    <div className="column is-narrow">
-                        <figure className="image is-128x128">
-                            <img src="https://bulma.io/images/placeholders/256x256.png"/>
-                        </figure>
-                    </div>
+                <div className="columns is-mobile is-centered is-vcentered">
                     <div className="column">
-                        <div className="content is-desktop is-vcentered">
+                        <div className="content">
                             <div className="title">
-                                <h5>About Me</h5>
+                                <p className="text-gradient-chill">About Me</p>
                             </div>
                             <div className="description">
                                 <p>
@@ -24,6 +19,11 @@ export const AboutMe = () => {
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div className="column is-narrow">
+                        <figure className="image">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHu8EJ5ZXRaRw/profile-displayphoto-shrink_200_200/0/1648233521215?e=1657756800&v=beta&t=rydDf2llJUzIhmg7f7qKcZNEYblM3OCwCKSotAtFlYc"/>
+                        </figure>
                     </div>
                 </div>
             </div>

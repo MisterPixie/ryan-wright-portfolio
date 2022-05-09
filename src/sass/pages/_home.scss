@@ -1,0 +1,32 @@
+@import "../helpers/variables";
+
+.aboutMe {
+    margin: 50px 0px 50px 0px;
+    figure {
+        margin-right: 150px;
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+    }
+
+    .content {
+        margin-left: 150px;
+
+        .title {
+            font-family: $roboFont;
+            margin-bottom: 20px;
+            p {
+                font-weight: 400;   
+                text-transform: uppercase;
+                width: 200px;
+            }
+        }
+        .description {
+
+            font-family: $roboFont;
+            font-weight: 300;
+            color: rgb(201 201 201);
+        }
+    }
+}
