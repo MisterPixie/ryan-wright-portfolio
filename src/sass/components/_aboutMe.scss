@@ -1,5 +1,5 @@
 .aboutMe {
-  margin: 50px 0px 50px 0px;
+  margin: 200px 0px 200px 0px;
   figure {
     margin-right: 150px;
     img {
@@ -14,10 +14,11 @@
     .title {
       font-family: $roboFont;
       margin-bottom: 20px;
+      font-size: 50px;
       p {
         font-weight: 400;
         text-transform: uppercase;
-        width: 200px;
+        width: 100%;
       }
     }
     .description {
