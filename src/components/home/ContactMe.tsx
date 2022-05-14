@@ -7,7 +7,7 @@ export const ContactMe = () => {
                 <div className="columns is-mobile is-centered is-vcentered">
                     <div className="column is-half">
                         <div className="content">
-                            <p className="has-text-centered">Looking for someone to complete a project for you?</p>
+                            <p className="title has-text-centered text-gradient-chill">Looking for someone to complete a project for you?</p>
                             <form>
                                 <div className="field">
                                     <label className="label">Project Subject</label>

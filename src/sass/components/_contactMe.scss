@@ -1,7 +1,20 @@
 .contactMe {
+  margin: 200px 0px 200px 0px;
   .content {
+    .title {
+      font-size: 25px;
+    }
+
     .field {
       width: 100%;
+      button {
+        margin-top: 20px;
+      }
+      label {
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-weight: 300;
+      }
     }
   }
 }
