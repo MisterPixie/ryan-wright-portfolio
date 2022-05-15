@@ -1,12 +1,12 @@
 import AboutMe from "../components/home/AboutMe";
 import ContactMe from "../components/home/ContactMe";
-import Languages from "../components/home/Languages";
+import Skills from "../components/home/Skills";
 
 export const App = () => {
     return (
         <div className="app">
             <AboutMe/>
-            <Languages/>
+            <Skills/>
             <ContactMe/>
         </div>
     )
