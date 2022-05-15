@@ -1,0 +1,35 @@
+.languages {
+    .header {
+        @include margin;
+    }
+
+    .lang-container {
+        @include margin-left;
+    }
+
+    .software-container {
+        @include magin-right;
+    }
+
+    .header {
+
+        .my-title {
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            font-size: 50px;
+        }
+
+        .description {
+            @include description
+        }
+
+        p {
+            font-family: $roboFont;
+            text-align: end;
+        }
+    }
+
+    @include tags-style(".lang-container");
+    @include tags-style(".frameworks-container");
+    @include tags-style(".software-container");
+}
