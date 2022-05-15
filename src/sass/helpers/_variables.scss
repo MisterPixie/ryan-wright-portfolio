@@ -14,3 +14,7 @@ $gradients: map-merge((
     hot: linear-gradient(135deg, #F9445A 0%,#FD803F 100%),
     cold: linear-gradient(135deg, #8019C6 0%,#2F93CC 100%)
 ), $gradients);
+
+//skills
+$skills_margin: 0px 150px 0px 150px;
+$margin_size: 150px;

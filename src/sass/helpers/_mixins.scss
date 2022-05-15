@@ -5,6 +5,44 @@
     }
 }
 
+@mixin description {
+  font-family: $roboFont;
+  font-weight: 300;
+  color: rgb(201, 201, 201);
+}
+
+@mixin margin-left {
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+  }
+
+  @media screen and (min-width: 769px) {
+    margin-left: $margin_size;
+  }
+}
+
+@mixin margin {
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 769px) {
+    margin-left: $margin_size;
+    margin-right: $margin_size;
+  }
+}
+
+@mixin magin-right {
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 769px) {
+    margin-right: $margin_size;
+  }
+}
+
 // Gradient text
 @mixin text-gradient($parent, $gradient) {
     #{$parent} {
@@ -22,4 +60,30 @@
     -ms-transition: $duration;
     -o-transition: $duration;
     transition: $duration;
+}
+
+@mixin tags-style($className) {
+  #{$className} {
+    .my-title {
+        font-family: $roboFont;
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: whitesmoke;
+        font-weight: 300;
+        text-align: right;
+    }
+
+    .tags {
+      .tag {
+        padding: 10px 10px 10px 5px;
+        background-color: rgb(14, 14, 14);
+        color: whitesmoke;
+        img {
+          height: 20px;
+          margin: 5px;
+        }
+      }
+    }
+
+  }
 }
